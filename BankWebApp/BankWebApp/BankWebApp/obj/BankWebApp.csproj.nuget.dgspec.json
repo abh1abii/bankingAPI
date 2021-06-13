@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abii/Desktop/Bank/BankWebApp/BankWebApp/BankWebApp/BankWebApp.csproj": {}
+  },
+  "projects": {
+    "/Users/abii/Desktop/Bank/BankWebApp/BankWebApp/BankWebApp/BankWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abii/Desktop/Bank/BankWebApp/BankWebApp/BankWebApp/BankWebApp.csproj",
+        "projectName": "BankWebApp",
+        "projectPath": "/Users/abii/Desktop/Bank/BankWebApp/BankWebApp/BankWebApp/BankWebApp.csproj",
+        "packagesPath": "/Users/abii/.nuget/packages/",
+        "outputPath": "/Users/abii/Desktop/Bank/BankWebApp/BankWebApp/BankWebApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abii/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.114.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Web.Http.Common": {
+              "target": "Package",
+              "version": "[4.0.20126.16343, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
